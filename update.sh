@@ -6,6 +6,7 @@ echo -e "$BLUE│$NC  $INFO Download Update Data.."
 sleep 1
 wget -q -O /usr/local/sbin/menu "DOTY/panel/menu" && chmod +x /usr/local/sbin/menu
 wget -q -O /usr/local/sbin/xp "DOTY/panel/ssh" && chmod +x /usr/local/sbin/ssh
+wget -q -O /usr/local/sbin/xp "DOTY/panel/settings" && chmod +x /usr/local/sbin/settings
 wget -q -O /usr/local/sbin/xp "DOTY/panel/xp" && chmod +x /usr/local/sbin/xp
 sleep 2
 echo -e "$BLUE│$NC  $INFO Update CronTab Data.."
