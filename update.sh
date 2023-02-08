@@ -13,5 +13,9 @@ sleep 2
 echo "0 1 * * * root /sbin/reboot" >> /etc/crontab
 echo "0 */2 * * * root /usr/local/sbin/bot" >> /etc/crontab
 echo "0 0 * * * root /usr/local/sbin/xp" >> /etc/crontab
+sleep 1
+echo -e "$BLUE│$NC  $INFO Restating Crontab"
+systemctl restart cron
+sleep 2
 echo -e "$BLUE│$NC  $INFO Update Successfully"
 sleep 1
